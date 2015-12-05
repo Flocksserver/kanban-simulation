@@ -17,6 +17,7 @@ Dies soll mit Hilfe einer konstruierten Produktionslinie geschehen. Das entstehe
 Eine Spielrunde dauert fünf Minuten. Jeder Produktionsschritt wird vom jeweiligen Mitarbeiter durchgeführt. Die Produktionsschritte sind durch einen Ein- sowie einen Ausgang verbunden. Das bedeutet, dass zwischen den Mitarbeitern platz für jeweils einen Ein- und Ausgang vorhanden sein muss. Der Prozess ist eine Prozesskette. Aus diesem Grund wird nach dem *"first in first out"*-Prinzip produziert. Der Logistiker wird vom Manager verbal gesteuert und transportiert Zwischenprodukte vom Aus- in den jeweiligen Eingang. Hierbei darf mehr als ein einzelnes Produkt gleichzeitig transportiert werden. Jedoch darf der Logistiker nicht eigenmächtig Agieren, sondern befolgt die Steuerungsschritte des Managers. Als Visualisierungshilfe wird das Plakat zum Push-Vorgang (siehe [Visualisierung Push-Vorgang](https://github.com/Flocksserver/kanban-simulation/blob/master/Material/Anleitung_Push-Vorgang.jpg)) verwendet. Um die auf der Metrikliste geforderten Durchlaufzeiten zu messen, soll vorzugsweise vom Manager in Minute 0:30 sowie 3:30 ein farbiges Papier in den Produktionsschritt mit eingefügt werden. Dies bedeutet, dass dieses Blatt auf den Stabel mit dem Rohmaterial (Papierstabel) gelegt werden muss.
 
 Die nachfolgende Tabelle stellt die Aufgabenverteilung für die verschiedenen Rollen in einer Übersicht dar.
+
 |     Rolle   |      Aufgabe     |
 | :------------- | :------------- | 
 | **Projektmitarbeiter**      | Jeder Projektmitarbeiter führt den Schritt, dem er zugeteilt ist, gewissenhaft durch. | 
@@ -27,6 +28,7 @@ Das Zeitnehmen der fünf Minuten kann für alle Gruppen gemeinsam geschehen oder
 
 ## Das Pull-Verfahren
 Äquivalent zum Push-Verfahren ist der Zeitrahmen von 5 Minuten gesetzt. Des Weiteren sind die vier Prozessschritte und Mitarbeiter unverändert. Ein elementare Unterschied wird bezüglich der Ein- und Ausgänge und deren Verwendung eingeführt. Es existiert ein Übergabebereich mit kombinierten Ein- und Ausgang. Diese beiden Bereiche werden zusammengelegt. Zusätzlich wird die Regel eingeführt, dass sich der Projektmitarbeiter erst neues Material zum Verarbeiten nehmen darf, wenn sein Ausgang leer ist. Der Logistiker entfällt und wechselt in die Rolle eines Beobachters. Zur Visualisierungshilfe kann hier erneut ein Plakat dienen (siehe [Visualisierung Pull-Vorgang](https://github.com/Flocksserver/kanban-simulation/blob/master/Material/Anleitung_Pull-Vorgang.jpg)). Auch beim Pull-Vorgang sollen Durchlaufzeiten ermittelt werden. Aus diesem Grund sollen die farbigen Blätter in Minute 0:30 und 3:30 dem Prozess zugeführt werden. Am Ende des Durchgangs wird die Metrikliste vervollständigt. Die Verschiedenen Aufgaben der Rollen im Pull-Verfahren werden in Tabelle folgender zusammengefasst.
+
 |     Rolle   |      Aufgabe     |
 | :------------- | :------------- | 
 | **Projektmitarbeiter**      | Jeder Projektmitarbeiter führt den Schritt, dem er zugeteilt ist, gewissenhaft durch. <br> Der Mitarbeiter nimmt nur dann aus seinem Eingang neues Material, wenn sein Ausgang leer ist. | 
