@@ -1,0 +1,75 @@
+\documentclass[aspectratio=169,xcolor={usenames,dvipsnames},handout]{beamer}
+% Handout Parameter, um die Foliensätze ohne einzelne "Klick-Schritte" zu generieren
+%\documentclass[aspectratio=169,xcolor={usenames,dvipsnames}, handout]{beamer}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage{multimedia}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{transparent}
+ 
+\usetheme{Szeged}
+
+\beamertemplatenavigationsymbolsempty
+
+\title{Kanban - ein Beispiel}
+\author{Marcel Kaufmann}
+\institute{PM QM - Hochschule Hannover}
+
+
+\useoutertheme[footline=institutetitle]{miniframes}
+\setbeamercolor{separation line}{use=structure,bg=structure.fg!50!bg}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+
+\begin{document}
+
+% Angepasster Footer mit Seitenzahlen (aktuell und max)
+\setbeamertemplate{footline}
+{
+  \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+  \end{beamercolorbox}
+\hbox{
+\begin{beamercolorbox}[wd=0.5\paperwidth, ht=2.5ex, dp=1.125ex, left]{title in head/foot}
+      \usebeamerfont{title in head/foot}\insertshorttitle
+    \end{beamercolorbox}
+\raggedright
+\begin{beamercolorbox}[wd=0.5\paperwidth, ht=2.5ex, dp=1.125ex, right]{title in head/foot}
+      \usebeamerfont{title in head/foot}\insertframenumber/\inserttotalframenumber\hspace*{2ex}
+\end{beamercolorbox}
+}
+ \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+  \end{beamercolorbox}
+}
+
+% Strukturfarbe
+\definecolor{flocksserver}{RGB}{0,100,0}
+
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{alerted text}{fg=red}
+\setbeamercolor{example text}{fg=green!50!black}
+
+\setbeamercolor{structure}{fg=flocksserver}
+%\setbeamercolor{structure}{fg=Bittersweet}
+
+\setbeamercolor{background canvas}{parent=normal text}
+\setbeamercolor{background}{parent=background canvas}
+
+\setbeamercolor{palette primary}{fg=yellow,bg=yellow} % changed this
+\setbeamercolor{palette secondary}{use=structure,fg=structure.fg!100!green} % changed this
+\setbeamercolor{palette tertiary}{use=structure,fg=structure.fg!100!green} % changed this
+
+
+\include{Titelseite}
+\include{Einleitung}
+\include{Quellen}
+
+
+
+\end{document}
