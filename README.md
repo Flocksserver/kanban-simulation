@@ -48,3 +48,13 @@ Jede Gruppe bespricht intern die Unterschiede der jeweiligen Durchläufe sowie d
 + Hoher Aufwand für Logistik und Management
 + Kosten für mehr Mitarbeiter
 + Arbeit des einzelnen Mitarbeiters
+
+## Material
++ pro Gruppe ca. 100 Blätter
++ pro Gruppe 4 markierte Blätter (Beispiel: andere Farbe)
++ pro Gruppe 1 Stift
++ pro Gruppe eine Tischreihe
++ pro Gruppe eine Metrikliste
++ pro Gruppe 3 Stopuhren (wahrscheinlich Handys/Smartphones in der Gruppe vorhanden)
++ 1 vorbereitetes Flipchart Metrikliste
++ Präsentationsmittel (Beamer, Flipchart, Pinnwand, Moderationkoffer etc.)
